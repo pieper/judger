@@ -6,6 +6,12 @@
   width: 32px;
   text-indent: -999em;
   overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  outline: none;
 }
 
 .thumbJudger a.thumbDown {
@@ -15,6 +21,12 @@
   width: 32px;
   text-indent: -999em;
   overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  outline: none;
 }
 
 .thumbJudger a.thumbRating {
@@ -22,6 +34,12 @@
 	font-size: 48px;
   padding-left: 6px;
   padding-right: 6px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  outline: none;
 }
 
 
