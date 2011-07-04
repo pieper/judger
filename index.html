@@ -22,7 +22,15 @@
         What is your ruling?
       </p>
       <form action="">
-        <div class="verdict">
+        <div class="thumbJudger">
+          <label><input class="ffactor" id="rating" name="rating" type="text" value="0"/>(use range -3 to 3)<label>
+        <p>Current Rating: <spann class='thumbJudgerCurrentRating'>Did Nothing</span></p>
+        <div>
+          <input type="submit" value="Submit Ruling" />
+      	</div>
+      </form>
+      <form action="">
+        <div class="starJudger">
           <label for="rating-1"><input id="rating-1" name="rating" type="radio" value="1"/>Guilty!</label>
           <label for="rating-2"><input id="rating-2" name="rating" type="radio" value="2"/>Did Harm</label>
           <label for="rating-3"><input id="rating-3" name="rating" type="radio" value="3"/>Misbehaved</label>
@@ -32,7 +40,7 @@
           <label for="rating-7"><input id="rating-7" name="rating" type="radio" value="7"/>Saved the Day</label>
           <label for="rating-8"><input id="rating-8" name="rating" type="radio" value="8"/>Untouchable!</label>
         </div>
-        <p>Current Rating: <spann class='verdictCurrentRating'>Did Nothing</span></p>
+        <p>Current Rating: <spann class='starJudgerCurrentRating'>Did Nothing</span></p>
         <div>
           <input type="submit" value="Submit Ruling" />
       	</div>

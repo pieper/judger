@@ -1,5 +1,5 @@
 $(document).ready(function(){
- judger.create('.verdict');
+ judger.create('.starJudger');
 });
 
 // The widget
@@ -45,9 +45,9 @@ var judger = {
       var $oneUpText = '<span>'+$vote.text()+'</span>';
       $($oneUpText)
         .addClass('voting')
-        .insertAfter('.verdictCurrentRating');
+        .insertAfter('.starJudgerCurrentRating');
       doOneUp('.voting');
-      $('.verdictCurrentRating').text($vote.text());
+      $('.starJudgerCurrentRating').text($vote.text());
 
       // Set the ratings
       $allLinks.children().removeClass('rating');
