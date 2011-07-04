@@ -1,3 +1,30 @@
+
+.thumbJudger a.thumbUp {
+  background: transparent url(agree.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.thumbJudger a.thumbDown {
+  background: transparent url(disagree.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.thumbJudger a.thumbRating {
+	color: #3E3E3E;
+	font-size: 48px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
 .starJudger div a {
   background: transparent url(judger.png) 0 0 no-repeat;
   display: inline-block;
@@ -28,7 +55,7 @@
   background-position: 0 -115px;
 }
 
-.voting {
+.judger1up {
   position: relative;
   left: -35px;
   top: -4px;
