@@ -1,0 +1,36 @@
+.verdict div a {
+  background: transparent url(judger.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 23px;
+  width: 12px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.verdict a.rating-right {
+  background-position: 0 -23px;
+  padding-right: 6px;
+}
+
+.verdict a.rating-over {
+  background-position: 0 -46px;
+}
+
+.verdict a.rating-over.rating-right {
+  background-position: 0 -69px;
+}
+
+.verdict a.rating {
+  background-position: 0 -92px;
+}
+
+.verdict a.rating.rating-right {
+  background-position: 0 -115px;
+}
+
+.voting {
+  position: relative;
+  left: -35px;
+  top: -4px;
+  opacity: 1;
+}
